@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: simuvest-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/home/claude/simuvest/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+  nginx:
+    image: nginx:alpine
+    container_name: simuvest-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./frontend:/home/claude/simuvest/frontend:ro
+      - ./nginx/simuvest.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - backend
+
+volumes:
+  data:
