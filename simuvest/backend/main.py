@@ -1,20 +1,24 @@
 """
-SimuVest Backend API
-FastAPI-based trading simulation engine
+SimuVest Backend API v2.0
+FastAPI-based trading simulation engine with real-time stock prices
 """
-from fastapi import FastAPI, HTTPException, Depends
+from fastapi import FastAPI, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional, List, Dict
 import sqlite3
 import uuid
-from datetime import datetime
+from datetime import datetime, timedelta
 import json
 from contextlib import contextmanager
+import asyncio
+import requests
+import time
+import random
 
-app = FastAPI(title="SimuVest API", version="1.0")
+app = FastAPI(title="SimuVest API", version="2.0")
 
-# CORS configuration for frontend
+# CORS configuration
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -32,14 +36,31 @@ os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
 class TradeRequest(BaseModel):
     userId: str
     symbol: str
-    type: str  # 'BUY' or 'SELL'
+    type: str
     quantity: int
-    orderType: str = "MARKET"  # 'MARKET' or 'LIMIT'
+    orderType: str = "MARKET"
     limitPrice: Optional[float] = None
 
 class UserCreate(BaseModel):
     userId: str
     initialCapital: float = 100000.0
+
+# Global stock price cache
+STOCK_PRICES = {}
+LAST_UPDATE = None
+UPDATE_INTERVAL = 60  # Update every 60 seconds
+
+# Stock symbols to track
+TRACKED_STOCKS = {
+    "AAPL": "Apple Inc.",
+    "GOOGL": "Alphabet Inc.",
+    "MSFT": "Microsoft Corp.",
+    "AMZN": "Amazon.com Inc.",
+    "TSLA": "Tesla Inc.",
+    "NVDA": "NVIDIA Corp.",
+    "META": "Meta Platforms",
+    "NFLX": "Netflix Inc.",
+}
 
 @contextmanager
 def get_db():
@@ -56,22 +77,24 @@ def get_db():
         conn.close()
 
 def init_db():
-    """Initialize database schema"""
+    """Initialize database schema with earnings tracking"""
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     
     try:
-        # Users table
+        # Users table with earnings tracking
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS users (
                 user_id TEXT PRIMARY KEY,
                 initial_capital REAL NOT NULL,
                 current_cash REAL NOT NULL,
+                total_realized_gains REAL DEFAULT 0,
+                total_unrealized_gains REAL DEFAULT 0,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         """)
         
-        # Transactions table (ledger)
+        # Transactions table
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS transactions (
                 transaction_id TEXT PRIMARY KEY,
@@ -80,6 +103,7 @@ def init_db():
                 symbol TEXT NOT NULL,
                 price REAL NOT NULL,
                 quantity INTEGER NOT NULL,
+                realized_gain REAL DEFAULT 0,
                 timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                 FOREIGN KEY (user_id) REFERENCES users(user_id)
             )
@@ -97,44 +121,154 @@ def init_db():
             )
         """)
         
+        # Price history table for tracking
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS price_history (
+                symbol TEXT NOT NULL,
+                price REAL NOT NULL,
+                change_pct REAL NOT NULL,
+                timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                PRIMARY KEY (symbol, timestamp)
+            )
+        """)
+        
         conn.commit()
     finally:
         conn.close()
 
-# Initialize DB on startup
+def fetch_real_stock_price(symbol: str) -> Optional[Dict]:
+    """
+    Fetch real stock price from Yahoo Finance
+    Falls back to simulated data if fetch fails
+    """
+    try:
+        # Yahoo Finance API endpoint
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
+        params = {
+            "interval": "1m",
+            "range": "1d"
+        }
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        }
+        
+        response = requests.get(url, params=params, headers=headers, timeout=5)
+        
+        if response.status_code == 200:
+            data = response.json()
+            chart = data.get('chart', {}).get('result', [{}])[0]
+            meta = chart.get('meta', {})
+            
+            current_price = meta.get('regularMarketPrice')
+            previous_close = meta.get('previousClose')
+            
+            if current_price and previous_close:
+                change_pct = ((current_price - previous_close) / previous_close) * 100
+                return {
+                    "price": round(current_price, 2),
+                    "change": round(change_pct, 2),
+                    "source": "yahoo_finance"
+                }
+    except Exception as e:
+        print(f"Failed to fetch {symbol}: {e}")
+    
+    # Fallback to simulated data
+    return None
+
+def update_stock_prices():
+    """Update all stock prices from real market data"""
+    global STOCK_PRICES, LAST_UPDATE
+    
+    print("Updating stock prices...")
+    
+    for symbol, name in TRACKED_STOCKS.items():
+        # Try to fetch real price
+        real_data = fetch_real_stock_price(symbol)
+        
+        if real_data:
+            STOCK_PRICES[symbol] = {
+                "name": name,
+                "price": real_data["price"],
+                "change": real_data["change"],
+                "source": "live"
+            }
+        else:
+            # Use last known price or simulate
+            if symbol in STOCK_PRICES:
+                old_price = STOCK_PRICES[symbol]["price"]
+                # Small random fluctuation
+                fluctuation = random.uniform(-0.02, 0.02)
+                new_price = old_price * (1 + fluctuation)
+                change_pct = fluctuation * 100
+            else:
+                # Initial prices
+                base_prices = {
+                    "AAPL": 189.50, "GOOGL": 142.80, "MSFT": 378.25,
+                    "AMZN": 151.75, "TSLA": 238.45, "NVDA": 495.80,
+                    "META": 355.20, "NFLX": 485.30
+                }
+                new_price = base_prices.get(symbol, 100.0)
+                change_pct = 0.0
+            
+            STOCK_PRICES[symbol] = {
+                "name": name,
+                "price": round(new_price, 2),
+                "change": round(change_pct, 2),
+                "source": "simulated"
+            }
+        
+        # Store in price history
+        try:
+            with get_db() as conn:
+                cursor = conn.cursor()
+                cursor.execute("""
+                    INSERT INTO price_history (symbol, price, change_pct)
+                    VALUES (?, ?, ?)
+                """, (symbol, STOCK_PRICES[symbol]["price"], STOCK_PRICES[symbol]["change"]))
+        except:
+            pass
+    
+    LAST_UPDATE = datetime.now()
+    print(f"Prices updated at {LAST_UPDATE}")
+
+async def price_updater_task():
+    """Background task to update prices regularly"""
+    while True:
+        update_stock_prices()
+        await asyncio.sleep(UPDATE_INTERVAL)
+
 @app.on_event("startup")
 async def startup_event():
     init_db()
     print("✓ Database initialized")
-
-# Market data simulation
-MARKET_DATA = {
-    "AAPL": {"name": "Apple Inc.", "price": 189.50, "change": 2.3},
-    "GOOGL": {"name": "Alphabet Inc.", "price": 142.80, "change": -0.8},
-    "MSFT": {"name": "Microsoft Corp.", "price": 378.25, "change": 1.5},
-    "AMZN": {"name": "Amazon.com Inc.", "price": 151.75, "change": 3.2},
-    "TSLA": {"name": "Tesla Inc.", "price": 238.45, "change": -1.2},
-    "NVDA": {"name": "NVIDIA Corp.", "price": 495.80, "change": 4.5},
-    "META": {"name": "Meta Platforms", "price": 355.20, "change": 1.8},
-    "NFLX": {"name": "Netflix Inc.", "price": 485.30, "change": -0.5},
-}
+    
+    # Initial price fetch
+    update_stock_prices()
+    
+    # Start background price updater
+    asyncio.create_task(price_updater_task())
+    print("✓ Price updater started")
 
 @app.get("/")
 async def root():
-    return {"message": "SimuVest API v1.0", "status": "operational"}
+    return {
+        "message": "SimuVest API v2.0",
+        "status": "operational",
+        "last_update": LAST_UPDATE.isoformat() if LAST_UPDATE else None
+    }
 
 @app.get("/api/market/stocks")
 async def get_stocks():
     """Get list of available stocks with current prices"""
-    return {"stocks": MARKET_DATA}
+    return {"stocks": STOCK_PRICES, "last_update": LAST_UPDATE.isoformat() if LAST_UPDATE else None}
 
 @app.get("/api/market/stock/{symbol}")
 async def get_stock(symbol: str):
     """Get specific stock data"""
     symbol = symbol.upper()
-    if symbol not in MARKET_DATA:
+    if symbol not in STOCK_PRICES:
         raise HTTPException(status_code=404, detail="Stock not found")
-    return MARKET_DATA[symbol]
+    return STOCK_PRICES[symbol]
 
 @app.post("/api/users")
 async def create_user(user: UserCreate):
@@ -142,15 +276,13 @@ async def create_user(user: UserCreate):
     with get_db() as conn:
         cursor = conn.cursor()
         
-        # Check if user exists
         cursor.execute("SELECT user_id FROM users WHERE user_id = ?", (user.userId,))
         if cursor.fetchone():
             raise HTTPException(status_code=400, detail="User already exists")
         
-        # Create user
         cursor.execute("""
-            INSERT INTO users (user_id, initial_capital, current_cash)
-            VALUES (?, ?, ?)
+            INSERT INTO users (user_id, initial_capital, current_cash, total_realized_gains, total_unrealized_gains)
+            VALUES (?, ?, ?, 0, 0)
         """, (user.userId, user.initialCapital, user.initialCapital))
         
         return {
@@ -161,7 +293,7 @@ async def create_user(user: UserCreate):
 
 @app.get("/api/users/{user_id}")
 async def get_user(user_id: str):
-    """Get user information"""
+    """Get user information with earnings"""
     with get_db() as conn:
         cursor = conn.cursor()
         cursor.execute("SELECT * FROM users WHERE user_id = ?", (user_id,))
@@ -173,22 +305,22 @@ async def get_user(user_id: str):
         return {
             "userId": user["user_id"],
             "initialCapital": user["initial_capital"],
-            "currentCash": user["current_cash"]
+            "currentCash": user["current_cash"],
+            "totalRealizedGains": user["total_realized_gains"],
+            "totalUnrealizedGains": user["total_unrealized_gains"]
         }
 
 @app.get("/api/portfolio/{user_id}")
 async def get_portfolio(user_id: str):
-    """Get user's portfolio with holdings and metrics"""
+    """Get user's portfolio with holdings and detailed earnings metrics"""
     with get_db() as conn:
         cursor = conn.cursor()
         
-        # Get user
         cursor.execute("SELECT * FROM users WHERE user_id = ?", (user_id,))
         user = cursor.fetchone()
         if not user:
             raise HTTPException(status_code=404, detail="User not found")
         
-        # Get holdings
         cursor.execute("""
             SELECT symbol, quantity, average_cost
             FROM holdings
@@ -197,53 +329,72 @@ async def get_portfolio(user_id: str):
         
         holdings = []
         total_holdings_value = 0
+        total_unrealized_gains = 0
         
         for row in cursor.fetchall():
             symbol = row["symbol"]
             quantity = row["quantity"]
             avg_cost = row["average_cost"]
-            current_price = MARKET_DATA.get(symbol, {}).get("price", 0)
+            current_price = STOCK_PRICES.get(symbol, {}).get("price", 0)
             
             current_value = quantity * current_price
             total_cost = quantity * avg_cost
-            gain_loss = current_value - total_cost
-            gain_loss_pct = (gain_loss / total_cost * 100) if total_cost > 0 else 0
+            unrealized_gain = current_value - total_cost
+            unrealized_gain_pct = (unrealized_gain / total_cost * 100) if total_cost > 0 else 0
             
             holdings.append({
                 "symbol": symbol,
-                "name": MARKET_DATA.get(symbol, {}).get("name", symbol),
+                "name": STOCK_PRICES.get(symbol, {}).get("name", symbol),
                 "quantity": quantity,
                 "averageCost": avg_cost,
                 "currentPrice": current_price,
                 "currentValue": current_value,
-                "gainLoss": gain_loss,
-                "gainLossPct": gain_loss_pct
+                "totalCost": total_cost,
+                "unrealizedGain": unrealized_gain,
+                "unrealizedGainPct": unrealized_gain_pct,
+                # Keep old names for compatibility
+                "gainLoss": unrealized_gain,
+                "gainLossPct": unrealized_gain_pct
             })
             
             total_holdings_value += current_value
+            total_unrealized_gains += unrealized_gain
         
         current_cash = user["current_cash"]
         total_value = current_cash + total_holdings_value
         initial_capital = user["initial_capital"]
-        total_gain_loss = total_value - initial_capital
-        total_gain_loss_pct = (total_gain_loss / initial_capital * 100) if initial_capital > 0 else 0
+        total_realized_gains = user["total_realized_gains"]
+        
+        # Total profit = realized + unrealized
+        total_profit = total_realized_gains + total_unrealized_gains
+        total_profit_pct = (total_profit / initial_capital * 100) if initial_capital > 0 else 0
+        
+        # Update unrealized gains in database
+        cursor.execute("""
+            UPDATE users SET total_unrealized_gains = ?
+            WHERE user_id = ?
+        """, (total_unrealized_gains, user_id))
         
         return {
             "userId": user_id,
             "currentCash": current_cash,
             "totalValue": total_value,
-            "totalGainLoss": total_gain_loss,
-            "totalGainLossPct": total_gain_loss_pct,
+            "totalGainLoss": total_profit,  # For compatibility
+            "totalGainLossPct": total_profit_pct,  # For compatibility
+            "totalRealizedGains": total_realized_gains,
+            "totalUnrealizedGains": total_unrealized_gains,
+            "totalProfit": total_profit,
+            "totalProfitPct": total_profit_pct,
             "holdings": holdings
         }
 
 @app.get("/api/transactions/{user_id}")
 async def get_transactions(user_id: str, limit: int = 50):
-    """Get user's transaction history"""
+    """Get user's transaction history with realized gains"""
     with get_db() as conn:
         cursor = conn.cursor()
         cursor.execute("""
-            SELECT transaction_id, type, symbol, price, quantity, timestamp
+            SELECT transaction_id, type, symbol, price, quantity, realized_gain, timestamp
             FROM transactions
             WHERE user_id = ?
             ORDER BY timestamp DESC
@@ -258,6 +409,7 @@ async def get_transactions(user_id: str, limit: int = 50):
                 "symbol": row["symbol"],
                 "price": row["price"],
                 "quantity": row["quantity"],
+                "realizedGain": row["realized_gain"],
                 "timestamp": row["timestamp"]
             })
         
@@ -265,35 +417,32 @@ async def get_transactions(user_id: str, limit: int = 50):
 
 @app.post("/api/trade")
 async def execute_trade(trade: TradeRequest):
-    """Execute a trade (buy or sell)"""
+    """Execute a trade with realized gains tracking"""
     with get_db() as conn:
         cursor = conn.cursor()
         
-        # Get user
         cursor.execute("SELECT * FROM users WHERE user_id = ?", (trade.userId,))
         user = cursor.fetchone()
         if not user:
             raise HTTPException(status_code=404, detail="User not found")
         
-        # Get stock price
-        if trade.symbol not in MARKET_DATA:
+        if trade.symbol not in STOCK_PRICES:
             raise HTTPException(status_code=404, detail="Stock not found")
         
-        current_price = MARKET_DATA[trade.symbol]["price"]
+        current_price = STOCK_PRICES[trade.symbol]["price"]
         execution_price = trade.limitPrice if trade.orderType == "LIMIT" else current_price
         
-        # Validate trade
         if trade.quantity <= 0:
             raise HTTPException(status_code=400, detail="Quantity must be positive")
         
         current_cash = user["current_cash"]
+        realized_gain = 0.0
         
         if trade.type == "BUY":
             total_cost = execution_price * trade.quantity
             if total_cost > current_cash:
                 raise HTTPException(status_code=400, detail="Insufficient funds")
             
-            # Update cash
             new_cash = current_cash - total_cost
             cursor.execute("UPDATE users SET current_cash = ? WHERE user_id = ?", 
                          (new_cash, trade.userId))
@@ -323,9 +472,8 @@ async def execute_trade(trade: TradeRequest):
                 """, (trade.userId, trade.symbol, trade.quantity, execution_price))
         
         elif trade.type == "SELL":
-            # Check holdings
             cursor.execute("""
-                SELECT quantity FROM holdings 
+                SELECT quantity, average_cost FROM holdings 
                 WHERE user_id = ? AND symbol = ?
             """, (trade.userId, trade.symbol))
             
@@ -333,11 +481,15 @@ async def execute_trade(trade: TradeRequest):
             if not holding or holding["quantity"] < trade.quantity:
                 raise HTTPException(status_code=400, detail="Insufficient shares")
             
+            # Calculate realized gain
+            avg_cost = holding["average_cost"]
+            realized_gain = (execution_price - avg_cost) * trade.quantity
+            
             # Update cash
             total_proceeds = execution_price * trade.quantity
             new_cash = current_cash + total_proceeds
-            cursor.execute("UPDATE users SET current_cash = ? WHERE user_id = ?",
-                         (new_cash, trade.userId))
+            cursor.execute("UPDATE users SET current_cash = ?, total_realized_gains = total_realized_gains + ? WHERE user_id = ?",
+                         (new_cash, realized_gain, trade.userId))
             
             # Update holdings
             new_qty = holding["quantity"] - trade.quantity
@@ -354,12 +506,12 @@ async def execute_trade(trade: TradeRequest):
         else:
             raise HTTPException(status_code=400, detail="Invalid trade type")
         
-        # Record transaction
+        # Record transaction with realized gain
         transaction_id = str(uuid.uuid4())
         cursor.execute("""
-            INSERT INTO transactions (transaction_id, user_id, type, symbol, price, quantity)
-            VALUES (?, ?, ?, ?, ?, ?)
-        """, (transaction_id, trade.userId, trade.type, trade.symbol, execution_price, trade.quantity))
+            INSERT INTO transactions (transaction_id, user_id, type, symbol, price, quantity, realized_gain)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+        """, (transaction_id, trade.userId, trade.type, trade.symbol, execution_price, trade.quantity, realized_gain))
         
         return {
             "transactionId": transaction_id,
@@ -367,7 +519,44 @@ async def execute_trade(trade: TradeRequest):
             "symbol": trade.symbol,
             "price": execution_price,
             "quantity": trade.quantity,
+            "realizedGain": realized_gain,
             "status": "executed"
+        }
+
+@app.get("/api/earnings/{user_id}")
+async def get_earnings_summary(user_id: str):
+    """Get detailed earnings breakdown"""
+    with get_db() as conn:
+        cursor = conn.cursor()
+        
+        cursor.execute("SELECT * FROM users WHERE user_id = ?", (user_id,))
+        user = cursor.fetchone()
+        if not user:
+            raise HTTPException(status_code=404, detail="User not found")
+        
+        # Get unrealized gains from holdings
+        cursor.execute("""
+            SELECT symbol, quantity, average_cost FROM holdings
+            WHERE user_id = ? AND quantity > 0
+        """, (user_id,))
+        
+        total_unrealized = 0
+        for row in cursor.fetchall():
+            current_price = STOCK_PRICES.get(row["symbol"], {}).get("price", 0)
+            unrealized = (current_price - row["average_cost"]) * row["quantity"]
+            total_unrealized += unrealized
+        
+        realized = user["total_realized_gains"]
+        total_profit = realized + total_unrealized
+        initial = user["initial_capital"]
+        
+        return {
+            "userId": user_id,
+            "initialCapital": initial,
+            "totalRealizedGains": realized,
+            "totalUnrealizedGains": total_unrealized,
+            "totalProfit": total_profit,
+            "returnOnInvestment": (total_profit / initial * 100) if initial > 0 else 0
         }
 
 if __name__ == "__main__":
