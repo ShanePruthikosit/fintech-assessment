@@ -1,0 +1,3033 @@
+/home/bp/fintech/simuvest/backend/main.py:240: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [132531]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+✓ Database initialized
+Updating stock prices...
+Prices updated at 2025-12-06 04:14:53.360916
+✓ Price updater started
+Updating stock prices...
+Prices updated at 2025-12-06 04:14:54.836753
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [132531]
+/home/bp/fintech/simuvest/backend/main.py:240: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [132548]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+✓ Database initialized
+Updating stock prices...
+Prices updated at 2025-12-06 04:15:09.392003
+✓ Price updater started
+Updating stock prices...
+Prices updated at 2025-12-06 04:15:10.960558
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [132548]
+/home/bp/fintech/simuvest/backend/main.py:240: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [132578]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+✓ Database initialized
+Updating stock prices...
+Prices updated at 2025-12-06 04:15:46.984057
+✓ Price updater started
+Updating stock prices...
+Prices updated at 2025-12-06 04:15:48.555563
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "POST /api/users HTTP/1.1" 400 Bad Request
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/transactions/demo_user?limit=50 HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "POST /api/users HTTP/1.1" 400 Bad Request
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/transactions/demo_user?limit=50 HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "POST /api/users HTTP/1.1" 400 Bad Request
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/transactions/demo_user?limit=50 HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "POST /api/users HTTP/1.1" 400 Bad Request
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/transactions/demo_user?limit=50 HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.113.169.98:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 04:16:50.141931
+Updating stock prices...
+Prices updated at 2025-12-06 04:17:51.627552
+Updating stock prices...
+Prices updated at 2025-12-06 04:19:02.732088
+Updating stock prices...
+Prices updated at 2025-12-06 04:20:04.251206
+Updating stock prices...
+Prices updated at 2025-12-06 04:21:05.736343
+Updating stock prices...
+Prices updated at 2025-12-06 04:22:07.243556
+Updating stock prices...
+Prices updated at 2025-12-06 04:23:08.826285
+Updating stock prices...
+Prices updated at 2025-12-06 04:24:10.369964
+Updating stock prices...
+Prices updated at 2025-12-06 04:25:11.910505
+Updating stock prices...
+Prices updated at 2025-12-06 04:26:13.495015
+Updating stock prices...
+Prices updated at 2025-12-06 04:27:15.045904
+Updating stock prices...
+Prices updated at 2025-12-06 04:28:16.564359
+Updating stock prices...
+Prices updated at 2025-12-06 04:29:18.119600
+Updating stock prices...
+Prices updated at 2025-12-06 04:30:19.657094
+Updating stock prices...
+Prices updated at 2025-12-06 04:31:21.220922
+Updating stock prices...
+Prices updated at 2025-12-06 04:32:22.750969
+Updating stock prices...
+Prices updated at 2025-12-06 04:33:24.242915
+Updating stock prices...
+Prices updated at 2025-12-06 04:34:25.742472
+Updating stock prices...
+Prices updated at 2025-12-06 04:35:27.312322
+Updating stock prices...
+Prices updated at 2025-12-06 04:36:28.749666
+Updating stock prices...
+Prices updated at 2025-12-06 04:37:30.322284
+Updating stock prices...
+Prices updated at 2025-12-06 04:38:31.746504
+Updating stock prices...
+Prices updated at 2025-12-06 04:39:41.158913
+Updating stock prices...
+Prices updated at 2025-12-06 04:40:42.714174
+Updating stock prices...
+Prices updated at 2025-12-06 04:41:44.257066
+Updating stock prices...
+Prices updated at 2025-12-06 04:42:45.790025
+Updating stock prices...
+Prices updated at 2025-12-06 04:43:47.286502
+Updating stock prices...
+Prices updated at 2025-12-06 04:44:48.810006
+Updating stock prices...
+Prices updated at 2025-12-06 04:45:50.304100
+Updating stock prices...
+Prices updated at 2025-12-06 04:46:51.828057
+Updating stock prices...
+Prices updated at 2025-12-06 04:47:53.382137
+Updating stock prices...
+Prices updated at 2025-12-06 04:48:54.904102
+Updating stock prices...
+Prices updated at 2025-12-06 04:49:56.403216
+Updating stock prices...
+Prices updated at 2025-12-06 04:50:57.869334
+Updating stock prices...
+Prices updated at 2025-12-06 04:51:59.393953
+Updating stock prices...
+Prices updated at 2025-12-06 04:53:00.983226
+Updating stock prices...
+Prices updated at 2025-12-06 04:54:02.547574
+Updating stock prices...
+Prices updated at 2025-12-06 04:55:04.055544
+Updating stock prices...
+Prices updated at 2025-12-06 04:56:05.563947
+Updating stock prices...
+Prices updated at 2025-12-06 04:57:07.070518
+Updating stock prices...
+Prices updated at 2025-12-06 04:58:08.601236
+Updating stock prices...
+Prices updated at 2025-12-06 04:59:10.205160
+Updating stock prices...
+Prices updated at 2025-12-06 05:00:11.716124
+Updating stock prices...
+Prices updated at 2025-12-06 05:01:13.242066
+Updating stock prices...
+Prices updated at 2025-12-06 05:02:14.839961
+Updating stock prices...
+Prices updated at 2025-12-06 05:03:16.395204
+Updating stock prices...
+Prices updated at 2025-12-06 05:04:18.013073
+Updating stock prices...
+Prices updated at 2025-12-06 05:05:19.556601
+Updating stock prices...
+Prices updated at 2025-12-06 05:06:29.168564
+Updating stock prices...
+Prices updated at 2025-12-06 05:07:30.705073
+Updating stock prices...
+Prices updated at 2025-12-06 05:08:32.182209
+Updating stock prices...
+Prices updated at 2025-12-06 05:09:33.757672
+Updating stock prices...
+Prices updated at 2025-12-06 05:10:35.247893
+Updating stock prices...
+Prices updated at 2025-12-06 05:11:36.785831
+Updating stock prices...
+Prices updated at 2025-12-06 05:12:38.320956
+Updating stock prices...
+Prices updated at 2025-12-06 05:13:39.817094
+Updating stock prices...
+Prices updated at 2025-12-06 05:14:41.319880
+Updating stock prices...
+Prices updated at 2025-12-06 05:15:42.808085
+Updating stock prices...
+Prices updated at 2025-12-06 05:16:44.294014
+Updating stock prices...
+Prices updated at 2025-12-06 05:17:45.855418
+Updating stock prices...
+Prices updated at 2025-12-06 05:18:47.374077
+Updating stock prices...
+Prices updated at 2025-12-06 05:19:56.535059
+Updating stock prices...
+Prices updated at 2025-12-06 05:20:58.091760
+Updating stock prices...
+Prices updated at 2025-12-06 05:21:59.590086
+Updating stock prices...
+Prices updated at 2025-12-06 05:23:01.167128
+Updating stock prices...
+Prices updated at 2025-12-06 05:24:02.696229
+Updating stock prices...
+Prices updated at 2025-12-06 05:25:04.204096
+Updating stock prices...
+Prices updated at 2025-12-06 05:26:05.757028
+Updating stock prices...
+Prices updated at 2025-12-06 05:27:07.295822
+Updating stock prices...
+Prices updated at 2025-12-06 05:28:08.872847
+Updating stock prices...
+Prices updated at 2025-12-06 05:29:10.435596
+Updating stock prices...
+Prices updated at 2025-12-06 05:30:11.962192
+Updating stock prices...
+Prices updated at 2025-12-06 05:31:13.462137
+Updating stock prices...
+Prices updated at 2025-12-06 05:32:15.046074
+Updating stock prices...
+Prices updated at 2025-12-06 05:33:16.632490
+Updating stock prices...
+Prices updated at 2025-12-06 05:34:20.503896
+Updating stock prices...
+Prices updated at 2025-12-06 05:35:21.964055
+Updating stock prices...
+Prices updated at 2025-12-06 05:36:23.509987
+Updating stock prices...
+Prices updated at 2025-12-06 05:37:25.038297
+Updating stock prices...
+Prices updated at 2025-12-06 05:38:26.545954
+Updating stock prices...
+Prices updated at 2025-12-06 05:39:28.060336
+Updating stock prices...
+Prices updated at 2025-12-06 05:40:29.547462
+Updating stock prices...
+Prices updated at 2025-12-06 05:41:31.051797
+Updating stock prices...
+Prices updated at 2025-12-06 05:42:32.630175
+Updating stock prices...
+Prices updated at 2025-12-06 05:43:34.258182
+Updating stock prices...
+Prices updated at 2025-12-06 05:44:35.749031
+Updating stock prices...
+Prices updated at 2025-12-06 05:45:37.343164
+Updating stock prices...
+Prices updated at 2025-12-06 05:46:38.859016
+Updating stock prices...
+Prices updated at 2025-12-06 05:47:40.425810
+Updating stock prices...
+Prices updated at 2025-12-06 05:48:50.137805
+Updating stock prices...
+Prices updated at 2025-12-06 05:49:51.713712
+Updating stock prices...
+Prices updated at 2025-12-06 05:50:53.212237
+Updating stock prices...
+Prices updated at 2025-12-06 05:51:54.760971
+Updating stock prices...
+Prices updated at 2025-12-06 05:52:56.316633
+Updating stock prices...
+Prices updated at 2025-12-06 05:53:57.914936
+Updating stock prices...
+Prices updated at 2025-12-06 05:54:59.463930
+Updating stock prices...
+Prices updated at 2025-12-06 05:56:01.008989
+Updating stock prices...
+Prices updated at 2025-12-06 05:57:02.554335
+Updating stock prices...
+Prices updated at 2025-12-06 05:58:04.097718
+Updating stock prices...
+Prices updated at 2025-12-06 05:59:05.540665
+Updating stock prices...
+Prices updated at 2025-12-06 06:00:07.085052
+Updating stock prices...
+Prices updated at 2025-12-06 06:01:08.613259
+Updating stock prices...
+Prices updated at 2025-12-06 06:02:10.132073
+Updating stock prices...
+Prices updated at 2025-12-06 06:03:11.700494
+Updating stock prices...
+Prices updated at 2025-12-06 06:04:13.400550
+Updating stock prices...
+Prices updated at 2025-12-06 06:05:14.906934
+Updating stock prices...
+Prices updated at 2025-12-06 06:06:16.475301
+Updating stock prices...
+Prices updated at 2025-12-06 06:07:18.036612
+Updating stock prices...
+Prices updated at 2025-12-06 06:08:19.583912
+Updating stock prices...
+Prices updated at 2025-12-06 06:09:21.103115
+Updating stock prices...
+Prices updated at 2025-12-06 06:10:22.634160
+Updating stock prices...
+Prices updated at 2025-12-06 06:11:24.084194
+Updating stock prices...
+Prices updated at 2025-12-06 06:12:25.619055
+Updating stock prices...
+Prices updated at 2025-12-06 06:13:27.145352
+Updating stock prices...
+Prices updated at 2025-12-06 06:14:28.652072
+Updating stock prices...
+Prices updated at 2025-12-06 06:15:30.161741
+Updating stock prices...
+Prices updated at 2025-12-06 06:16:31.717722
+Updating stock prices...
+Prices updated at 2025-12-06 06:17:33.215603
+Updating stock prices...
+Prices updated at 2025-12-06 06:18:34.625926
+Updating stock prices...
+Prices updated at 2025-12-06 06:19:36.163162
+Updating stock prices...
+Prices updated at 2025-12-06 06:20:37.713356
+Updating stock prices...
+Prices updated at 2025-12-06 06:21:39.233825
+Updating stock prices...
+Prices updated at 2025-12-06 06:22:40.805140
+Updating stock prices...
+Prices updated at 2025-12-06 06:23:42.363979
+Updating stock prices...
+Prices updated at 2025-12-06 06:24:43.920949
+Updating stock prices...
+Prices updated at 2025-12-06 06:25:45.392949
+Updating stock prices...
+Prices updated at 2025-12-06 06:26:46.944769
+Updating stock prices...
+Prices updated at 2025-12-06 06:27:48.262264
+Updating stock prices...
+Prices updated at 2025-12-06 06:28:49.807115
+Updating stock prices...
+Prices updated at 2025-12-06 06:29:51.344071
+Updating stock prices...
+Prices updated at 2025-12-06 06:30:52.915086
+Updating stock prices...
+Prices updated at 2025-12-06 06:32:02.504919
+Updating stock prices...
+Prices updated at 2025-12-06 06:33:04.042706
+Updating stock prices...
+Prices updated at 2025-12-06 06:34:05.633356
+Updating stock prices...
+Prices updated at 2025-12-06 06:35:07.183982
+Updating stock prices...
+Prices updated at 2025-12-06 06:36:08.728089
+Updating stock prices...
+Prices updated at 2025-12-06 06:37:10.289165
+Updating stock prices...
+Prices updated at 2025-12-06 06:38:11.862387
+Updating stock prices...
+Prices updated at 2025-12-06 06:39:13.438686
+Updating stock prices...
+Prices updated at 2025-12-06 06:40:14.999065
+Updating stock prices...
+Prices updated at 2025-12-06 06:41:16.765987
+Updating stock prices...
+Prices updated at 2025-12-06 06:42:18.401963
+Updating stock prices...
+Prices updated at 2025-12-06 06:43:19.957259
+Updating stock prices...
+Prices updated at 2025-12-06 06:44:21.520463
+Updating stock prices...
+Prices updated at 2025-12-06 06:45:23.068754
+Updating stock prices...
+Prices updated at 2025-12-06 06:46:24.638992
+Updating stock prices...
+Prices updated at 2025-12-06 06:47:26.135038
+Updating stock prices...
+Prices updated at 2025-12-06 06:48:27.679885
+Updating stock prices...
+Prices updated at 2025-12-06 06:49:29.313899
+Updating stock prices...
+Prices updated at 2025-12-06 06:50:30.828976
+Updating stock prices...
+Prices updated at 2025-12-06 06:51:40.316634
+Updating stock prices...
+Prices updated at 2025-12-06 06:52:50.051025
+Updating stock prices...
+Prices updated at 2025-12-06 06:53:57.208585
+Updating stock prices...
+Prices updated at 2025-12-06 06:54:58.761435
+Updating stock prices...
+Prices updated at 2025-12-06 06:56:00.307826
+Updating stock prices...
+Prices updated at 2025-12-06 06:57:09.740230
+Updating stock prices...
+Prices updated at 2025-12-06 06:58:11.299189
+Updating stock prices...
+Prices updated at 2025-12-06 06:59:12.860481
+Updating stock prices...
+Prices updated at 2025-12-06 07:00:14.424971
+Updating stock prices...
+Prices updated at 2025-12-06 07:01:16.014109
+Updating stock prices...
+Prices updated at 2025-12-06 07:02:17.535307
+Updating stock prices...
+Prices updated at 2025-12-06 07:03:19.067408
+Updating stock prices...
+Prices updated at 2025-12-06 07:04:20.739212
+Updating stock prices...
+Prices updated at 2025-12-06 07:05:22.235470
+Updating stock prices...
+Prices updated at 2025-12-06 07:06:23.745472
+Updating stock prices...
+Prices updated at 2025-12-06 07:07:25.399148
+Updating stock prices...
+Prices updated at 2025-12-06 07:08:35.011126
+Updating stock prices...
+Prices updated at 2025-12-06 07:09:43.281791
+Updating stock prices...
+Prices updated at 2025-12-06 07:10:44.751912
+Updating stock prices...
+Prices updated at 2025-12-06 07:11:46.301155
+Updating stock prices...
+Prices updated at 2025-12-06 07:12:47.852213
+Updating stock prices...
+Prices updated at 2025-12-06 07:13:49.402984
+Updating stock prices...
+Prices updated at 2025-12-06 07:14:50.941969
+Updating stock prices...
+Prices updated at 2025-12-06 07:15:52.468105
+Updating stock prices...
+Prices updated at 2025-12-06 07:16:54.004139
+Updating stock prices...
+Prices updated at 2025-12-06 07:17:55.505040
+Updating stock prices...
+Prices updated at 2025-12-06 07:18:57.035941
+Updating stock prices...
+Prices updated at 2025-12-06 07:19:58.369116
+Updating stock prices...
+Prices updated at 2025-12-06 07:20:59.926848
+Updating stock prices...
+Prices updated at 2025-12-06 07:22:01.566298
+Updating stock prices...
+Prices updated at 2025-12-06 07:23:03.182177
+Updating stock prices...
+Prices updated at 2025-12-06 07:24:04.788446
+Updating stock prices...
+Prices updated at 2025-12-06 07:25:06.337977
+Updating stock prices...
+Prices updated at 2025-12-06 07:26:07.834495
+Updating stock prices...
+Prices updated at 2025-12-06 07:27:09.387006
+Updating stock prices...
+Prices updated at 2025-12-06 07:28:10.918532
+Updating stock prices...
+Prices updated at 2025-12-06 07:29:12.438194
+Updating stock prices...
+Prices updated at 2025-12-06 07:30:14.028007
+Updating stock prices...
+Prices updated at 2025-12-06 07:31:15.575007
+Updating stock prices...
+Prices updated at 2025-12-06 07:32:17.137995
+Updating stock prices...
+Prices updated at 2025-12-06 07:33:18.771193
+Updating stock prices...
+Prices updated at 2025-12-06 07:34:20.215310
+Updating stock prices...
+Prices updated at 2025-12-06 07:35:21.851523
+Updating stock prices...
+Prices updated at 2025-12-06 07:36:23.402574
+Updating stock prices...
+Prices updated at 2025-12-06 07:37:24.990249
+Updating stock prices...
+Prices updated at 2025-12-06 07:38:26.616071
+Updating stock prices...
+Prices updated at 2025-12-06 07:39:28.176220
+Updating stock prices...
+Prices updated at 2025-12-06 07:40:29.626906
+Updating stock prices...
+Prices updated at 2025-12-06 07:41:31.246251
+Updating stock prices...
+Prices updated at 2025-12-06 07:42:32.811016
+Updating stock prices...
+Prices updated at 2025-12-06 07:43:34.234502
+Updating stock prices...
+Prices updated at 2025-12-06 07:44:35.799409
+Updating stock prices...
+Prices updated at 2025-12-06 07:45:37.301230
+Updating stock prices...
+Prices updated at 2025-12-06 07:46:38.860012
+Updating stock prices...
+Prices updated at 2025-12-06 07:47:40.401968
+Updating stock prices...
+Prices updated at 2025-12-06 07:48:41.904923
+Updating stock prices...
+Prices updated at 2025-12-06 07:49:43.411084
+Updating stock prices...
+Prices updated at 2025-12-06 07:50:44.886984
+Updating stock prices...
+Prices updated at 2025-12-06 07:51:46.447050
+Updating stock prices...
+Prices updated at 2025-12-06 07:52:47.930040
+Updating stock prices...
+Prices updated at 2025-12-06 07:53:49.473146
+Updating stock prices...
+Prices updated at 2025-12-06 07:54:51.004127
+Updating stock prices...
+Prices updated at 2025-12-06 07:55:52.513049
+Updating stock prices...
+Prices updated at 2025-12-06 07:56:54.055335
+Updating stock prices...
+Prices updated at 2025-12-06 07:57:55.569055
+Updating stock prices...
+Prices updated at 2025-12-06 07:58:57.082133
+Updating stock prices...
+Prices updated at 2025-12-06 07:59:58.790290
+Updating stock prices...
+Prices updated at 2025-12-06 08:01:00.407319
+Updating stock prices...
+Prices updated at 2025-12-06 08:02:01.859110
+Updating stock prices...
+Prices updated at 2025-12-06 08:03:03.432258
+Updating stock prices...
+Prices updated at 2025-12-06 08:04:04.982348
+Updating stock prices...
+Prices updated at 2025-12-06 08:05:06.538872
+Updating stock prices...
+Prices updated at 2025-12-06 08:06:08.160245
+Updating stock prices...
+Prices updated at 2025-12-06 08:07:09.743924
+Updating stock prices...
+Prices updated at 2025-12-06 08:08:11.362982
+Updating stock prices...
+Prices updated at 2025-12-06 08:09:12.970258
+Updating stock prices...
+Prices updated at 2025-12-06 08:10:14.532744
+Updating stock prices...
+Prices updated at 2025-12-06 08:11:16.196964
+Updating stock prices...
+Prices updated at 2025-12-06 08:12:17.796549
+Updating stock prices...
+Prices updated at 2025-12-06 08:13:19.390307
+Updating stock prices...
+Prices updated at 2025-12-06 08:14:20.894167
+Updating stock prices...
+Prices updated at 2025-12-06 08:15:22.458784
+Updating stock prices...
+Prices updated at 2025-12-06 08:16:23.981362
+Updating stock prices...
+Prices updated at 2025-12-06 08:17:25.548330
+Updating stock prices...
+Prices updated at 2025-12-06 08:18:27.138093
+Updating stock prices...
+Prices updated at 2025-12-06 08:19:28.750871
+Updating stock prices...
+Prices updated at 2025-12-06 08:20:30.281010
+Updating stock prices...
+Prices updated at 2025-12-06 08:21:31.761985
+Updating stock prices...
+Prices updated at 2025-12-06 08:22:33.292397
+Updating stock prices...
+Prices updated at 2025-12-06 08:23:34.835109
+Updating stock prices...
+Prices updated at 2025-12-06 08:24:36.391991
+Updating stock prices...
+Prices updated at 2025-12-06 08:25:38.010133
+Updating stock prices...
+Prices updated at 2025-12-06 08:26:39.564227
+Updating stock prices...
+Prices updated at 2025-12-06 08:27:41.045343
+Updating stock prices...
+Prices updated at 2025-12-06 08:28:42.608320
+Updating stock prices...
+Prices updated at 2025-12-06 08:29:44.174872
+Updating stock prices...
+Prices updated at 2025-12-06 08:30:45.683883
+Updating stock prices...
+Prices updated at 2025-12-06 08:31:47.150582
+Updating stock prices...
+Prices updated at 2025-12-06 08:32:48.720954
+Updating stock prices...
+Prices updated at 2025-12-06 08:33:50.149937
+Updating stock prices...
+Prices updated at 2025-12-06 08:34:51.630033
+Updating stock prices...
+Prices updated at 2025-12-06 08:35:53.268024
+Updating stock prices...
+Prices updated at 2025-12-06 08:36:54.793409
+Updating stock prices...
+Prices updated at 2025-12-06 08:37:56.345256
+Updating stock prices...
+Prices updated at 2025-12-06 08:38:57.881491
+Updating stock prices...
+Prices updated at 2025-12-06 08:39:59.387879
+Updating stock prices...
+Prices updated at 2025-12-06 08:41:00.882511
+Updating stock prices...
+Prices updated at 2025-12-06 08:42:02.460209
+Updating stock prices...
+Prices updated at 2025-12-06 08:43:04.133128
+Updating stock prices...
+Prices updated at 2025-12-06 08:44:05.725353
+Updating stock prices...
+Prices updated at 2025-12-06 08:45:07.292205
+Updating stock prices...
+Prices updated at 2025-12-06 08:46:08.969233
+Updating stock prices...
+Prices updated at 2025-12-06 08:47:10.580039
+Updating stock prices...
+Prices updated at 2025-12-06 08:48:12.203352
+Updating stock prices...
+Prices updated at 2025-12-06 08:49:13.819819
+Updating stock prices...
+Prices updated at 2025-12-06 08:50:15.487748
+Updating stock prices...
+Prices updated at 2025-12-06 08:51:17.217040
+Updating stock prices...
+Prices updated at 2025-12-06 08:52:18.834452
+Updating stock prices...
+Prices updated at 2025-12-06 08:53:20.463125
+Updating stock prices...
+Prices updated at 2025-12-06 08:54:22.180836
+Updating stock prices...
+Prices updated at 2025-12-06 08:55:23.757897
+Updating stock prices...
+Prices updated at 2025-12-06 08:56:25.314061
+Updating stock prices...
+Prices updated at 2025-12-06 08:57:26.904040
+Updating stock prices...
+Prices updated at 2025-12-06 08:58:28.502183
+Updating stock prices...
+Prices updated at 2025-12-06 08:59:30.139323
+Updating stock prices...
+Prices updated at 2025-12-06 09:00:40.567886
+Updating stock prices...
+Prices updated at 2025-12-06 09:01:42.090981
+Updating stock prices...
+Prices updated at 2025-12-06 09:02:43.626530
+Updating stock prices...
+Prices updated at 2025-12-06 09:03:45.117357
+Updating stock prices...
+Prices updated at 2025-12-06 09:04:46.607967
+Updating stock prices...
+Prices updated at 2025-12-06 09:05:48.232968
+Updating stock prices...
+Prices updated at 2025-12-06 09:06:57.762817
+Updating stock prices...
+Prices updated at 2025-12-06 09:07:59.353966
+Updating stock prices...
+Prices updated at 2025-12-06 09:09:09.600563
+Updating stock prices...
+Prices updated at 2025-12-06 09:10:18.820899
+Updating stock prices...
+Prices updated at 2025-12-06 09:11:20.486179
+Updating stock prices...
+Prices updated at 2025-12-06 09:12:22.040272
+Updating stock prices...
+Prices updated at 2025-12-06 09:13:23.583674
+Updating stock prices...
+Prices updated at 2025-12-06 09:14:25.196108
+Updating stock prices...
+Prices updated at 2025-12-06 09:15:26.808963
+Updating stock prices...
+Prices updated at 2025-12-06 09:16:28.382178
+Updating stock prices...
+Prices updated at 2025-12-06 09:17:29.900805
+Updating stock prices...
+Prices updated at 2025-12-06 09:18:31.352231
+Updating stock prices...
+Prices updated at 2025-12-06 09:19:32.991316
+Updating stock prices...
+Prices updated at 2025-12-06 09:20:34.626235
+Updating stock prices...
+Prices updated at 2025-12-06 09:21:36.254817
+Updating stock prices...
+Prices updated at 2025-12-06 09:22:37.805330
+Updating stock prices...
+Prices updated at 2025-12-06 09:23:39.517675
+Updating stock prices...
+Prices updated at 2025-12-06 09:24:41.134545
+Updating stock prices...
+Prices updated at 2025-12-06 09:25:42.745013
+Updating stock prices...
+Prices updated at 2025-12-06 09:26:44.328916
+Updating stock prices...
+Prices updated at 2025-12-06 09:27:45.935622
+Updating stock prices...
+Prices updated at 2025-12-06 09:28:52.672951
+Updating stock prices...
+Prices updated at 2025-12-06 09:29:54.265495
+Updating stock prices...
+Prices updated at 2025-12-06 09:30:55.844360
+Updating stock prices...
+Prices updated at 2025-12-06 09:31:57.496365
+Updating stock prices...
+Prices updated at 2025-12-06 09:33:09.248716
+Updating stock prices...
+Prices updated at 2025-12-06 09:34:10.758743
+Updating stock prices...
+Prices updated at 2025-12-06 09:35:12.351608
+Updating stock prices...
+Prices updated at 2025-12-06 09:36:14.033839
+Updating stock prices...
+Prices updated at 2025-12-06 09:37:15.586466
+Updating stock prices...
+Prices updated at 2025-12-06 09:38:17.160171
+Updating stock prices...
+Prices updated at 2025-12-06 09:39:26.901759
+Updating stock prices...
+Prices updated at 2025-12-06 09:40:28.518563
+Updating stock prices...
+Prices updated at 2025-12-06 09:41:30.139206
+Updating stock prices...
+Prices updated at 2025-12-06 09:42:31.762966
+Updating stock prices...
+Prices updated at 2025-12-06 09:43:33.383342
+Updating stock prices...
+Prices updated at 2025-12-06 09:44:42.808451
+Updating stock prices...
+Prices updated at 2025-12-06 09:45:44.496206
+Updating stock prices...
+Prices updated at 2025-12-06 09:46:48.146551
+Updating stock prices...
+Prices updated at 2025-12-06 09:47:49.723144
+Updating stock prices...
+Prices updated at 2025-12-06 09:48:51.220682
+Updating stock prices...
+Prices updated at 2025-12-06 09:49:52.762108
+Updating stock prices...
+Prices updated at 2025-12-06 09:50:54.329825
+Updating stock prices...
+Prices updated at 2025-12-06 09:51:55.906945
+Updating stock prices...
+Prices updated at 2025-12-06 09:52:57.517161
+Updating stock prices...
+Prices updated at 2025-12-06 09:53:59.234239
+Updating stock prices...
+Prices updated at 2025-12-06 09:55:08.576509
+Updating stock prices...
+Prices updated at 2025-12-06 09:56:10.183475
+Updating stock prices...
+Prices updated at 2025-12-06 09:57:11.772068
+Updating stock prices...
+Prices updated at 2025-12-06 09:58:20.985758
+Updating stock prices...
+Prices updated at 2025-12-06 09:59:30.620173
+Updating stock prices...
+Prices updated at 2025-12-06 10:00:40.046806
+Updating stock prices...
+Prices updated at 2025-12-06 10:01:41.606520
+Updating stock prices...
+Prices updated at 2025-12-06 10:02:43.192554
+Updating stock prices...
+Prices updated at 2025-12-06 10:03:44.733147
+Updating stock prices...
+Prices updated at 2025-12-06 10:04:46.253253
+Updating stock prices...
+Prices updated at 2025-12-06 10:05:47.846152
+Updating stock prices...
+Prices updated at 2025-12-06 10:06:49.429875
+Updating stock prices...
+Prices updated at 2025-12-06 10:07:50.993010
+Updating stock prices...
+Prices updated at 2025-12-06 10:08:52.554750
+Updating stock prices...
+Prices updated at 2025-12-06 10:10:00.893934
+Updating stock prices...
+Prices updated at 2025-12-06 10:11:10.423674
+Updating stock prices...
+Prices updated at 2025-12-06 10:12:11.872943
+Updating stock prices...
+Prices updated at 2025-12-06 10:13:13.567525
+Updating stock prices...
+Prices updated at 2025-12-06 10:14:15.216965
+Updating stock prices...
+Prices updated at 2025-12-06 10:15:16.707138
+Updating stock prices...
+Prices updated at 2025-12-06 10:16:18.338346
+Updating stock prices...
+Prices updated at 2025-12-06 10:17:19.980074
+INFO:     100.94.154.77:0 - "POST /api/users HTTP/1.1" 400 Bad Request
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/transactions/demo_user?limit=50 HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:18:21.537093
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:19:23.204879
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:20:24.773576
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:21:26.320055
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:22:27.910516
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:23:29.417586
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:24:31.021205
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:25:32.659965
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:26:34.239037
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:27:35.804847
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:28:37.447472
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:29:39.072186
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:30:40.670245
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:31:42.205202
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:32:43.700826
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:33:52.861494
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:35:01.470519
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:36:03.013147
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:37:04.614839
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:38:06.107182
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:39:07.742646
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:40:09.370471
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:41:18.404568
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:42:20.039227
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "POST /api/users HTTP/1.1" 400 Bad Request
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/transactions/demo_user?limit=50 HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:43:21.549839
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:44:23.129294
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:45:24.727038
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:46:26.347576
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:47:35.834530
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:48:37.315195
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:49:38.826010
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:50:40.324219
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:51:41.924255
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:52:43.542697
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:53:45.085485
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:54:54.538520
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:55:56.011584
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:56:57.538612
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:58:06.642909
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 10:59:17.400771
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 11:00:18.871963
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 11:01:20.380136
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 11:02:21.897120
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 11:03:23.382471
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "POST /api/trade HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/transactions/demo_user?limit=50 HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 11:04:24.932368
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 11:05:28.339170
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 11:06:29.915996
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 11:07:31.477228
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 11:08:40.501035
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 11:09:42.082948
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [132578]
+Traceback (most recent call last):
+  File "/home/bp/fintech/simuvest/backend/main.py", line 5, in <module>
+    from fastapi import FastAPI, HTTPException, BackgroundTasks
+ModuleNotFoundError: No module named 'fastapi'
+/home/bp/fintech/simuvest/backend/main.py:240: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [136653]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+✓ Database initialized
+Updating stock prices...
+Prices updated at 2025-12-06 12:04:35.952534
+✓ Price updater started
+Updating stock prices...
+Prices updated at 2025-12-06 12:04:37.508207
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "POST /api/users HTTP/1.1" 400 Bad Request
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/transactions/demo_user?limit=50 HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "POST /api/users HTTP/1.1" 400 Bad Request
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/transactions/demo_user?limit=50 HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 12:05:39.040032
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [136653]
+/home/bp/fintech/simuvest/backend/main.py:240: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [136671]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+✓ Database initialized
+Updating stock prices...
+Prices updated at 2025-12-06 12:06:02.781043
+✓ Price updater started
+Updating stock prices...
+Prices updated at 2025-12-06 12:06:04.395418
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "POST /api/users HTTP/1.1" 400 Bad Request
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/transactions/demo_user?limit=50 HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 12:07:06.012271
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "POST /api/users HTTP/1.1" 400 Bad Request
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/transactions/demo_user?limit=50 HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 12:08:07.511125
+INFO:     100.94.154.77:0 - "POST /api/users HTTP/1.1" 400 Bad Request
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/transactions/demo_user?limit=50 HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 12:09:09.098040
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 12:10:10.755365
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 12:11:12.307509
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 12:12:13.867250
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+Updating stock prices...
+Prices updated at 2025-12-06 12:13:15.440718
+INFO:     100.94.154.77:0 - "POST /api/users HTTP/1.1" 400 Bad Request
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/transactions/demo_user?limit=50 HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "POST /api/analysis/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/market/stocks HTTP/1.1" 200 OK
+INFO:     100.94.154.77:0 - "GET /api/portfolio/demo_user HTTP/1.1" 200 OK

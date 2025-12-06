@@ -718,8 +718,6 @@
             const [showConfirmModal, setShowConfirmModal] = useState(false);
             const [pendingTrade, setPendingTrade] = useState(null);
             const [transactionFilter, setTransactionFilter] = useState('ALL');
-            const [aiAnalysis, setAiAnalysis] = useState(null);
-            const [analysisLoading, setAnalysisLoading] = useState(false);
             const chartRef = useRef(null);
             const chartInstance = useRef(null);
 
@@ -842,35 +840,6 @@
                 } catch (err) {
                     setError(err.message);
                     setTimeout(() => setError(null), 5000);
-                }
-            };
-
-            const getAIAnalysis = async () => {
-                try {
-                    setAnalysisLoading(true);
-                    setError(null);
-                    setAiAnalysis(null);
-                    
-                    const res = await fetch(`${API_BASE}/analysis/${USER_ID}`, {
-                        method: 'POST'
-                    });
-                    
-                    const data = await res.json();
-                    
-                    if (data.success) {
-                        setAiAnalysis(data.analysis);
-                        setSuccess('AI analysis complete!');
-                        setTimeout(() => setSuccess(null), 3000);
-                    } else {
-                        setAiAnalysis(data.analysis); // Show fallback
-                        setSuccess('Analysis generated (API unavailable)');
-                        setTimeout(() => setSuccess(null), 3000);
-                    }
-                } catch (err) {
-                    setError('Failed to get AI analysis: ' + err.message);
-                    setTimeout(() => setError(null), 5000);
-                } finally {
-                    setAnalysisLoading(false);
                 }
             };
 
@@ -1127,56 +1096,6 @@
                                         </div>
                                     )}
                                 </div>
-                            </div>
-
-                            {/* AI Analysis Section */}
-                            <div className="section" style={{marginTop: '2rem'}}>
-                                <div className="section-title">🤖 AI Portfolio Analysis</div>
-                                <button 
-                                    className="btn btn-buy"
-                                    onClick={getAIAnalysis}
-                                    disabled={analysisLoading || !portfolio}
-                                    style={{
-                                        width: '100%',
-                                        background: 'linear-gradient(135deg, #00d4ff, #00ff88)',
-                                        marginBottom: aiAnalysis || analysisLoading ? '1.5rem' : '0',
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        justifyContent: 'center',
-                                        gap: '0.5rem'
-                                    }}
-                                >
-                                    <span style={{fontSize: '1.2rem'}}>🧠</span>
-                                    {analysisLoading ? 'Analyzing Portfolio...' : 'Get AI Analysis'}
-                                </button>
-                                
-                                {analysisLoading && (
-                                    <div style={{
-                                        display: 'flex',
-                                        flexDirection: 'column',
-                                        alignItems: 'center',
-                                        gap: '1rem',
-                                        padding: '2rem',
-                                        color: 'var(--accent-blue)'
-                                    }}>
-                                        <div className="spinner"></div>
-                                        <div>Claude is analyzing your portfolio...</div>
-                                    </div>
-                                )}
-                                
-                                {aiAnalysis && !analysisLoading && (
-                                    <div style={{
-                                        padding: '2rem',
-                                        background: 'var(--bg-elevated)',
-                                        border: '1px solid var(--accent-blue)',
-                                        borderRadius: '8px',
-                                        whiteSpace: 'pre-wrap',
-                                        lineHeight: '1.8',
-                                        animation: 'fadeIn 0.5s ease'
-                                    }}>
-                                        {aiAnalysis}
-                                    </div>
-                                )}
                             </div>
                         </div>
 
